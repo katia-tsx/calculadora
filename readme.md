@@ -38,7 +38,7 @@ No es necesario instalar nada para usar esta calculadora. Simplemente abre el ar
 
 Si deseas contribuir a este proyecto, siéntete libre de clonar el repositorio y enviar tus propias mejoras a través de solicitudes de extracción.
 
->[!note]7
+>[!note]
 >Este proyecto fue creado como parte de un ejercicio de práctica.
 
 ## Licencia
