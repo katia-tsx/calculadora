@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-ckGsL8tPr82EB7G6RO4sBm8vDwRoVS7Mrt0HseT5Y1eE9sIPbqBcUgGbN4MNXJo9u0Zo4FzTCXrd2Sh2VIM3kA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="calculator">
+        <div class="memory">
+            <div class="memory-title">Historial</div>
+            <div class="history" id="history"></div>
+        </div>
+        <input id="result" disabled>
+        <i class="fas fa-backspace icon" onclick="clearResult()"></i>
+        <div class="buttons">
+            <button onclick="appendToResult('7')">7</button>
+            <button onclick="appendToResult('8')">8</button>
+            <button onclick="appendToResult('9')">9</button>
+            <button onclick="appendToResult('/')">/</button>
+            <button onclick="appendToResult('4')">4</button>
+            <button onclick="appendToResult('5')">5</button>
+            <button onclick="appendToResult('6')">6</button>
+            <button onclick="appendToResult('*')">*</button>
+            <button onclick="appendToResult('1')">1</button>
+            <button onclick="appendToResult('2')">2</button>
+            <button onclick="appendToResult('3')">3</button>
+            <button onclick="appendToResult('-')">-</button>
+            <button onclick="appendToResult('0')">0</button>
+            <button onclick="appendToResult('.')">.</button>
+            <button onclick="clearResult()">C</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendToResult('+')">+</button>
+        </div>
+    </main>
+
+    <script src="./script/main.js">
+    </script>
+
+</body>
+
+</html>
